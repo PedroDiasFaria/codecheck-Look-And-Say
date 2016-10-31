@@ -10,7 +10,7 @@ public class App {
 	public static void main(String[] args) {
 		for (int i = 0, l = args.length; i < l; i++) {
 			//System.out.print(args[i] + " -> ");
-			//String result = lookAndSay(Integer.parseInt(args[i]));
+			String result = lookAndSay(Integer.parseInt(args[i]));
 			System.out.println(result);
 		}
 	}
