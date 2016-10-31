@@ -4,3 +4,5 @@ It's all explained in the code.
 I knew numberphile would help me someday. Already saw them talking about this sequence in 
 https://www.youtube.com/watch?v=ea7lJkEhytA 
 
+Basically using a recursive approach, every iteration I check all the terms of the previous solution
+Then make a counting whenever each term is repeated in sequence, append it to the solution for the next iteration and continue until the last one.
